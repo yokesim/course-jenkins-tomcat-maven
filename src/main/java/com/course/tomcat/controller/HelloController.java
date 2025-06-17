@@ -19,8 +19,8 @@ public class HelloController {
         return ThreadLocalRandom.current().nextInt(0,1000);
     }
 
-    @GetMapping(value = "/hero")
-    String hero(){
+    @GetMapping(value = "/hero1")
+    String hero1(){
         return "Hello hero";
     }
  
